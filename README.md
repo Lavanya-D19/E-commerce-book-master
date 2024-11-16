@@ -67,12 +67,12 @@ An advanced, fully functional e-commerce platform designed for selling books onl
 ### Command to Run the Application
 Run the following command to set up the database and start the development server:
 bash
-bash -c "
-ls && 
-python3 manage.py makemigrations books && 
-python3 manage.py makemigrations accounts && 
-python3 manage.py migrate && 
-python3 manage.py runserver 0.0.0.0:8000"
+- bash -c "
+- ls && 
+- python3 manage.py makemigrations books && 
+- python3 manage.py makemigrations accounts && 
+- python3 manage.py migrate && 
+- python3 manage.py runserver 
 
 
 ### Explanation of the Command:
