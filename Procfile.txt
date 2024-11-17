@@ -1,0 +1,1 @@
+web gunicorn django-ecommerce-bookstore-master.wsgi:application --log-file-
