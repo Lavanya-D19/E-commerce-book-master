@@ -1,12 +1,12 @@
 <p id ="top" align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/django bookstore logo.png" width="90%">
+  <img src="https://github.com/Lavanya-D19/Pages-App-django/blob/master/templates/django bookstore logo.png" width="90%">
 </p>
 
 
 # Django-Ecommece-Bookstore
 <p>An online bookshop developed in django-3 which allow users to purchase books online :) </p>
 
-<img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/dj-ecom-bstore-pic2.png?raw=true">
+<img src="https://github.com/Lavanya-D19/Pages-App-django/blob/master/templates/dj-ecom-bstore-pic2.png?raw=true">
 
 ### Live App
 * checkout the site here: <a href="https://dj-bookstore.onrender.com/" target="_blank" >Deployed App</a> (little note below)
@@ -14,9 +14,6 @@
 (Note: The website can take upto 30 seconds (hosted on Render free tier services), as the project has no clients, its just for learning, please refer the source
 code to run locally).
 
-### Short Note
-
-This guide will Step-by-Step help you to create your own ecommerce bookstore application in django. With HTML, CSS, JAVASCRIPT and Django Framework. 
 
 Note: this guide is not for absolute beginners so im assuming that you have the basic knowledge of MVT in django to get started. To know more on it i recommend you <a href="https://docs.djangoproject.com/en/3.0/">django documentation</a>.
 
@@ -162,9 +159,6 @@ Now, lets check that our model is being registered properly or not. First lets e
 
 * now open this link in your browser http://127.0.0.1:8000/
 
-You will see a rocket there and a message saying, 'The install worked successfully! Congratulations!'
-
-if yes, we didn't make any mistakes. Good !
 
 * Now go to admin page by using this link http://127.0.0.1:8000/admin/
 
@@ -286,7 +280,7 @@ Also, the BookDetailView uses this <int:pk> or id to show the details of a parti
 
 ### templates
 
-Its time for templates now, if you remember we used template_name in our class based views. The content on the webpage basically comes from templates (actually html files) and the views holds the overall functionality in short. First lets create a template folder, your templates folder should be outside your ecom_project folder, forex: take a look at my <a href = "https://github.com/YashMarmat/django-ecommece-bookstore">repository</a>. Mean place the folder just below the ecom_project folder (note: there are many ways to use templates in django but for now im using this approach).
+Its time for templates now, if you remember we used template_name in our class based views. The content on the webpage basically comes from templates (actually html files) and the views holds the overall functionality in short. First lets create a template folder, your templates folder should be outside your ecom_project folder, forex: take a look at my <a href = "https://github.com/Lavanya-D19/django-ecommece-bookstore">repository</a>. Mean place the folder just below the ecom_project folder (note: there are many ways to use templates in django but for now im using this approach).
 
 * or just follow below command
 
@@ -312,7 +306,7 @@ now open your settings.py file from ecom_project folder and update the Template 
 
 Inside templates folder create 5 .html files namely --> base.html, checkout.html, detail.html, list.html, search_results.html (again order doesn't matter). Update the files by putting the codes mention in below links
 
-<a href ="https://github.com/YashMarmat/django-ecommece-bookstore/blob/master/templates/base.html">base.html</a>, <a href ="https://github.com/YashMarmat/django-ecommece-bookstore/blob/master/templates/checkout.html">checkout.html</a>, <a href ="https://github.com/YashMarmat/django-ecommece-bookstore/blob/master/templates/detail.html">detail.html</a>, <a href ="https://github.com/YashMarmat/django-ecommece-bookstore/blob/master/templates/list.html">list.html</a>, <a href ="https://github.com/YashMarmat/django-ecommece-bookstore/blob/master/templates/search_results.html">search_results.html</a>
+<a href ="https://github.com/Lavanya-D19/django-ecommece-bookstore/blob/master/templates/base.html">base.html</a>, <a href ="https://github.com/Lavanya-D19/django-ecommece-bookstore/blob/master/templates/checkout.html">checkout.html</a>, <a href ="https://github.com/Lavanya-D19/django-ecommece-bookstore/blob/master/templates/detail.html">detail.html</a>, <a href ="https://github.com/Lavanya-D19/django-ecommece-bookstore/blob/master/templates/list.html">list.html</a>, <a href ="https://github.com/Lavanya-D19/django-ecommece-bookstore/blob/master/templates/search_results.html">search_results.html</a>
 
 Note: detail knowledge of templates is not given here as i said earlier im assuming that you have the basic knowlege of MVT in django.
 
@@ -436,7 +430,7 @@ go to templates folder and create a signup.html file (Note: do not put signup.ht
 (django_project)$`touch templates/signup.html`
 
 
-put the code in signup.html, present <a href = "https://github.com/YashMarmat/django-ecommece-bookstore/blob/master/templates/signup.html">here</a>.
+put the code in signup.html, present <a href = "https://github.com/Lavanya-D19/django-ecommece-bookstore/blob/master/templates/signup.html">here</a>.
 
 
 ok, we done with the views now its time for url routing, go ahead and create a new urls.py for this accounts app.
@@ -499,7 +493,7 @@ Ok, to use some static css in django we need to update few thing in our settings
 
 (django_project)$`touch static/css/base.css`
 
-open 'base.css' folder and put this <a href="https://github.com/YashMarmat/django-ecommece-bookstore/blob/master/static/css/base.css">code</a> in it.
+open 'base.css' folder and put this <a href="https://github.com/Lavanya-D19/django-ecommece-bookstore/blob/master/static/css/base.css">code</a> in it.
 
 Now, save everything and test your bookstore website :)
 
